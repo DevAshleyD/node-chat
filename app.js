@@ -17,7 +17,7 @@ var pack = require('./package.json')
 var path = require('path')
 
 /* Config */
-var port = utils.normalizePort(process.env.PORT || 3000)
+var port = utils.normalizePort(process.env.PORT)
 var app = express()
 var server
 
